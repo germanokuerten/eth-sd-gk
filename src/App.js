@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// rafce - shortcut for react functional component. (to simplify and speedup workflow)
+// npm i react-icons (only dependency needed for this project)
+// type npm start, to begin local host 3000
 
-function App() {
+import React from 'react'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <h1>GPT-3</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
