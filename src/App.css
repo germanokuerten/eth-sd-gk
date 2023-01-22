@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* CSS variable for our background color (which is all in index.css) */
+    background: var(--color-bg)
+}
+
+/* anchor tags */
+a {
+    color: unset;
+    text-decoration: none;
+}
