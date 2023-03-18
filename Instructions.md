@@ -77,3 +77,5 @@ export { default as WhatGPT3 } from './whatgpt3/WhatGPT3'
 17. (24:15)
 
 Ps. this is the whole point of react, have everything in a single page, and separate everything in smaller components, and code it separately. Compared to an hmtl index file with "thousands of lines".
+
+17. (48:27)
