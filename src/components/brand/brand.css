@@ -62,4 +62,11 @@
         font-size: 14px;
         line-height: 24px;
     }
+
+    .gpt3__brand img {
+        width: 100%;
+        max-width: 130px;
+        margin: 1.5rem .7rem .7rem .7rem;
+        border-radius: 25%;
+    }
 }

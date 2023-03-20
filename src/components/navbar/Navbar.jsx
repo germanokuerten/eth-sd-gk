@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { RiMenuFill, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
 import ethsdlogo from '../../assets/ethsdlogo.png';
 import './navbar.css';
@@ -9,7 +9,7 @@ const Menu = () => (
   <p><a href="#home">Home</a></p>
   <p><a href="#wgpt3">About</a></p>
   <p><a href="https://www.ethsd.org/events" target="_blank">Events</a></p>
-  <p><a href="#footer">Explore</a></p>
+  <p><a href="#footer">Connect</a></p>
   <p><a href="https://link.ethsd.org/" target="_blank">Socials</a></p>
   </>
 )
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className='gpt3__navbar-menu'>
           {toggleMenu 
             ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
-            : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
+            : <RiMenuFill color='#fff' size={27} onClick={() => setToggleMenu(true)} />
           }
           {toggleMenu && (
             <div className='gpt3__navbar-menu_container scale-up-center'>
