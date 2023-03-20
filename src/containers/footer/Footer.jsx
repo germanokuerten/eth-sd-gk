@@ -1,11 +1,14 @@
 import React from 'react'
 import ethsdlogo from '../../assets/ethsdlogo.png'
+import OceanWave from '../../components/waves/Oceanwave'
 import './footer.css'
 
 const Footer = () => {
   return (
+    <>
     <div className='gpt3__footer section__padding'>
       <div className='gpt3__footer-heading'>
+      <OceanWave />
         <h1 className='gradient__text'>
           Ready to get involved?
         </h1>
@@ -34,6 +37,7 @@ const Footer = () => {
         <p>© 2023 ETH San Diego. All rights reserved.</p>
       </div>
     </div>
+    </>
   )
 }
 
