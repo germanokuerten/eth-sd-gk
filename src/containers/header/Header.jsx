@@ -1,26 +1,30 @@
 import React from 'react'
 import './header.css'
 import people from '../../assets/people.png'
+import ethsdlogo from '../../assets/ethsdlogo.png'
 import ai from '../../assets/ai.png'
+import ethsdpeople from '../../assets/ethsdpeople.jpg'
 
 const Header = () => {
   return (
     <div className='gpt3__header section__padding' id='home'>
         <div className='gpt3__header-content'>
-          <h1 className='gradient__text'>Let's Build Something Amazing with GPT-3 OpenAI</h1>
-          <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-          <div className='gpt3__header-content__input'>
-            <input type="email" placeholder='Your Email Address' />
-            <button type='button'>Get Started</button>
-          </div>
+          <h1 className='gradient__text'>Ethereum San Diego</h1>
+          <p>Learn, Network, and Build with San Diego’s Only Ethereum Community</p> <br />
+
           <div className='gpt3__header-content__people'>
             <img src={people} alt="people" />
-            <p>1,600 people requested access a visit in last 24 hours</p>
+            <p>Ready to get involved?</p>
           </div>
+          <div className='gpt3__header-content__input'>
+            <input type="email" placeholder='Enter yout email' />
+            <button type='button'>Subscribe</button>
+          </div>
+          
 
-          {/* <div className='gpt3__header-image'>
-            <img src={ai} alt="ai" />
-          </div> */}
+        </div>
+        <div className='gpt3__header-image'>
+          <img src={ethsdpeople} alt="ai" />
         </div>
     </div>
   )
