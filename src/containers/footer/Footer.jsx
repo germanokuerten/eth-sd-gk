@@ -6,7 +6,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <>
-    <div className='gpt3__footer section__padding'>
+    <div className='gpt3__footer section__padding' id='footer'>
       <div className='gpt3__footer-heading'>
       <OceanWave />
         <h1 className='gradient__text'>

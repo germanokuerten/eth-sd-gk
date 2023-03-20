@@ -28,13 +28,12 @@ const App = () => {
         <Navbar />
         <Header />
         <Brand />
+        <WhatGPT3 />
       </div>
-      <WhatGPT3 />
-      <Features />
+      {/* <Features />
       <Possibility />
       <CTA />
-      <Blog />
-      
+      <Blog /> */}
       <Footer />
     </div>
   )

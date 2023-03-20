@@ -5,6 +5,7 @@ import { ethereumfoundationlogo, polygonlogo, alchemylogo, chainlinklogo, discol
 const Brand = () => {
   return (
     <>
+      <br/><br/><br/><br/>
       <div className='gpt3__brand gpt3__brand-content section__padding'>
         <h1 className='gradient__text'>Our Partners</h1>
       </div>
