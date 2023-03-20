@@ -24,16 +24,16 @@
     font-family: var(--font-family);
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 27px;
     color: var(--color-text);
 
-    margin-top: 1rem;
+    margin-top: .8rem;
 }
 
 .gpt3__header-content__input {
     width: 100%;
-    margin: 2rem 0 1rem;
+    margin: 1rem 0 5rem;
     display: flex;
 }
 
@@ -42,7 +42,7 @@
     width: 100%;
     min-height: 50px;
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 19px;
     line-height: 27px;
     background: var(--color-footer);
     border: 2px solid var(--color-footer);
@@ -78,7 +78,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .gpt3__header-content__people img {
@@ -90,7 +90,7 @@
     margin: 0 0 0 1rem;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 38px;
     color: #FFFFFF;
     text-align: centera;
@@ -116,7 +116,7 @@
     }
     
     .gpt3__header-content {
-        margin: 0 0 3rem;
+        margin: 0 0 0rem;
     }
 }
 
