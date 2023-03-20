@@ -13,7 +13,7 @@ const Header = () => {
           <p>Learn, Network, and Build with San Diego’s Only Ethereum Community</p> <br />
 
           <div className='gpt3__header-content__people'>
-            <img src={people} alt="people" />
+            {/* <img src={people} alt="people" /> */}
             <p>Ready to get involved?</p>
           </div>
           <div className='gpt3__header-content__input'>

@@ -121,7 +121,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__header h1 {
+    .gpt3__header h1, h2 {
         font-size: 48px;
         line-height: 60px;
     }
@@ -147,7 +147,7 @@
 }
 
 @media screen and (max-width: 490px) {
-    .gpt3__header h1 {
+    .gpt3__header h1, h2 {
         font-size: 36px;
         line-height: 48px;
     }

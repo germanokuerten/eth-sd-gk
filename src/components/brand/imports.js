@@ -1,13 +1,15 @@
-import google from '../../assets/google.png'
-import slack from '../../assets/slack.png'
-import atlassian from '../../assets/atlassian.png'
-import dropbox from '../../assets/dropbox.png'
-import shopify from '../../assets/shopify.png'
+import ethereumfoundationlogo from '../../assets/ethereumfoundationlogo.png'
+import polygonlogo from '../../assets/polygonlogo.png'
+import alchemylogo from '../../assets/alchemylogo.png'
+import chainlinklogo from '../../assets/chainlinklogo.png'
+import discologo from '../../assets/discologo.png'
+import edgelogo from '../../assets/edgelogo.jpg'
 
 export {
-    google,
-    slack,
-    atlassian,
-    dropbox,
-    shopify,
+    ethereumfoundationlogo,
+    polygonlogo,
+    alchemylogo,
+    chainlinklogo,
+    discologo,
+    edgelogo,
 }
