@@ -10,8 +10,9 @@ const Header = () => {
     <div className='gpt3__header section__padding' id='home'>
         <div className='gpt3__header-content'>
           <h1 className='gradient__text'>Ethereum San Diego</h1>
-          <p>Learn, Network, and Build with San Diego’s Only Ethereum Community</p> <br />
-
+          <p>Learn, Network, and Build with San Diego’s Only Ethereum Community</p> 
+          
+          <br />
           <div className='gpt3__header-content__people'>
             {/* <img src={people} alt="people" /> */}
             <p>Ready to get involved?</p>
@@ -19,9 +20,7 @@ const Header = () => {
           <div className='gpt3__header-content__input'>
             <input type="email" placeholder='Enter yout email' />
             <button type='button'>Subscribe</button>
-          </div>
-          
-
+          </div>   
         </div>
         <div className='gpt3__header-image'>
           <img src={ethsdpeople} alt="ai" />
