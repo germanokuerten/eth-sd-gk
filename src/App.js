@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from "react";
 
-import { Article, Brand, CTA, Feature, Navbar } from './components';
+import { Article, Brand, Cta, Feature, Navbar } from './components';
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3,  } from './containers';
 import './App.css'
 
@@ -32,7 +32,7 @@ const App = () => {
       </div>
       {/* <Features />
       <Possibility />
-      <CTA />
+      <Cta />
       <Blog /> */}
       <Footer />
     </div>

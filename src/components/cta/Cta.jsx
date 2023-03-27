@@ -1,10 +1,10 @@
 import React from 'react'
 import './cta.css'
 
-const CTA = () => {
+const Cta = () => {
   return (
-    <div>CTA</div>
+    <div>Cta</div>
   )
 }
 
-export default CTA
+export default Cta
